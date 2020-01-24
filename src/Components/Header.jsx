@@ -1,9 +1,12 @@
 import React from 'react';
+import {head} from '../img/header.png'
 
 const Header = () => {
 
     return(
-        <div></div>
+        <div>
+            <img className="head" src={head} alt=""/>
+        </div>
     )
 }
 
