@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from './Components/Nav';
 import Header from './Components/Header';
 import About from './Components/About';
 import Services from './Components/Services';
@@ -13,7 +12,6 @@ const App = () => {
 
   return (
     <div>
-      <Nav />
       <Header />
       <About />
       <Services />

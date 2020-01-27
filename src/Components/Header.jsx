@@ -1,13 +1,15 @@
 import React from 'react';
-import {head} from '../img/header.png'
+import Nav from './Nav';
 
 const Header = () => {
 
     return(
-        <div>
-            <img className="head" src={head} alt=""/>
+        <div id="header">
+            <div class="bann position-absolute no-gutters row"></div>
+            <Nav className="nav"/>
+            <h1 className="text-white text text-center font-weight-bold">I'm a web developer, <br/> having trouble with react?</h1>
         </div>
     )
 }
 
-export default Header;
+export default Header; 
