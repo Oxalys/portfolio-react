@@ -2,6 +2,8 @@ import React from 'react';
 
 const Contact = () => {
 
+    // creer un state, stock la maj du click, si click sur input ca devient vrai, vrai va faire un affichage conditionnel sur la class (ternaire)
+
     return (
         <div id="contact">
             <h2 className="text-center py-4 mb-4 display-4 text-light">- Get in Touch -</h2>
@@ -10,7 +12,7 @@ const Contact = () => {
                     <div className="col-10 mx-auto">
                         <div className="row">
                             <div className="col-6 form-group py-3">
-                                <label htmlFor="" className="text-light h4">Name</label>
+                                <label className="text-light h4">Name</label>
                                 <input type="text" className="form-control text-light pt-3"/>
                                 </div>
                             <div className="col-6 form-group py-3">
