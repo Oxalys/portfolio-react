@@ -28,19 +28,32 @@
     font-family: 'Playfair Display', serif
     i
         color: #472D7F
+        transition: transform .2s
+    i:hover
+        transform: scale(2)
 
 #about
     font-family: 'Playfair Display', serif
     img 
-        max-width: 90%
-    button
+        max-width: 80%
+    input
         background-color: #472D7F
+        transition: transform .2s
+    input:hover
+        transform: scale(1.2)
 
 #portfolio
     font-family: 'Playfair Display', serif
     background-color: #472D7F
     img
-        width: 70%
+        width: 100%
+        min-width: 200px
+        border: solid white 2px
+    .col-2
+        transition: transform .2s
+    .col-2:hover
+        transform: scale(1.2)
+
 
 #banniere
     background-image:url('./img/header.jpg')
@@ -68,8 +81,11 @@
         color: #472D7F  
     li 
         list-style: none
-        text-align: left
-        margin-left: 60px
+
+#footer2
+    font-family: 'Playfair Display', serif
+    background-color: #472D7F
+    bottom: 0
     
 
          
