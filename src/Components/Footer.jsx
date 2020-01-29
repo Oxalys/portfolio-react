@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="col-2"></div>
                 <div className="col text-center">
                     <h4>- Follow us on Social Media -</h4>
-                    <i class="fab fa-facebook-square mt-4 h2 p-2"></i> <i class="fab fa-twitter-square h2 p-2"></i> <i class="fab fa-instagram h2 p-2"></i> <i class="fab fa-snapchat-square h2 p-2"></i>
+                    <i className="fab fa-facebook-square mt-4 h2 p-2"></i> <i className="fab fa-twitter-square h2 p-2"></i> <i className="fab fa-instagram h2 p-2"></i> <i className="fab fa-snapchat-square h2 p-2"></i>
                 </div>
                 <div className="col text-center">
                     <h4 className="mb-4">- Know us Better -</h4>
@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
                 <div className="col-2"></div>
             </div>
-            <div id="footer2"><p className="text-center text-light m-0 py-3">© Copyright 2020 | website made with <i class="fas fa-heart text-danger"></i> by Oxalys Web Dev</p></div>
+            <div id="footer2"><p className="text-center text-light m-0 py-3">© Copyright 2020 | website made with <i className="fas fa-heart text-danger"></i> by Oxalys Web Dev</p></div>
         </div>
     )
 }

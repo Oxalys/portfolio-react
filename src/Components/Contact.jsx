@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Contact = () => {
 
-    // creer un state, stock la maj du click, si click sur input ca devient vrai, vrai va faire un affichage conditionnel sur la class (ternaire)
+    // creer un state, stock la maj du click, si click sur input ca devient vrai, vrai va faire un affichage conditionnel sur la className (ternaire)
 
     const [slide1, setSlide1] = useState("text-light h4");
     const [slide2, setSlide2] = useState("text-light h4");

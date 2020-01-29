@@ -15,39 +15,39 @@ const Portfolio = () => {
                     <div className="col-2"><img src={proj1} alt=""/></div>
  
                     <div className="col-6">
-                        <div id="carouselExampleCaptions" class="carousel slide container py-5 w-75" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <div id="carouselExampleCaptions" className="carousel slide container py-5 w-75" data-ride="carousel">
+                            <ol className="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                             </ol>
-                            <div class="carousel-inner mb-3">
-                                <div class="carousel-item active">
-                                    <img src={img1} class="d-block w-100" alt="..." />
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-inner mb-3">
+                                <div className="carousel-item active">
+                                    <img src={img1} className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h3>New Ideas</h3>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={img2} class="d-block w-100" alt="..." />
-                                    <div class="carousel-caption d-none d-md-block">
+                                <div className="carousel-item">
+                                    <img src={img2} className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h3>High Quality Design</h3>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src={img3} class="d-block w-100" alt="..." />
-                                    <div class="carousel-caption d-none d-md-block">
+                                <div className="carousel-item">
+                                    <img src={img3} className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h3>Great Responsive Apps</h3>
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
+                            <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
+                            <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Next</span>
                             </a>
                         </div>
                     </div>
