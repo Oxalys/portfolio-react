@@ -16,8 +16,6 @@ code {
 
 // Progress Bars
 progress, progress[role] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   border: none;
   background-size: auto;
@@ -51,32 +49,10 @@ progress, progress[role] {
   background: #b852b3;
 }
 
-.skill-1::-moz-progress-bar {
-  background: #b852b3;
-}
-
 .skill-2::-webkit-progress-value {
-  background: #6b8bd1;
-}
-
-.skill-2::-moz-progress-bar {
   background: #6b8bd1;
 }
 
 .skill-3::-webkit-progress-value {
   background: rgb(113, 57, 150);
 }
-
-.skill-3::-moz-progress-bar {
-  background: rgb(113, 57, 150);
-}
-
-// Animation Keyframes
-@-webkit-keyframes bar-fill {
-  0% { width: 0; }
-}
-
-@keyframes bar-fill {
-  0% { width: 0; }
-}
-
