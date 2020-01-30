@@ -3,12 +3,12 @@ import img1 from '../img/portfolio1.jpg';
 import img2 from '../img/portfolio2.jpg';
 import img3 from '../img/portfolio3.jpg';
 import proj1 from '../img/proj1.jpg';
-import proj2 from '../img/proj2.jpg';
+import proj2 from '../img/proj2.jpg'; 
 
 const Portfolio = () => {
 
     return (
-        <Fragment>
+        <Fragment> 
             <div id="portfolio">
                 <h1 className="text-center pt-4 display-4 text-light">- Portfolio -</h1>
                 <div className="row no-gutters">

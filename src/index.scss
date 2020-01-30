@@ -14,45 +14,177 @@ code {
 
 
 
-// Progress Bars
-progress, progress[role] {
-  appearance: none;
-  border: none;
-  background-size: auto;
-  height: 60px;
-  width: 100%;
+// // Progress Bars
+// progress, progress[role] {
+//   appearance: none;
+//   border: none;
+//   background-size: auto;
+//   height: 60px;
+//   width: 100%;
+// }
+
+// // The unordered list
+// .skill-list {
+//   list-style: none;
+//   margin: 0;
+//   padding: 1em;
+// }
+
+// // The list item
+// .skill {
+//   margin-bottom: 1em;
+//   position: relative;
+//   h3 {
+//     color: #fff;
+//     left: 1em;
+//     line-height: 1;
+//     position: absolute;
+//     top: 14px;
+//     width: 0px;
+//   }
+// }
+
+// // Style the bar colors
+// .skill-1::-webkit-progress-value {
+//   background: #b852b3;
+// }
+
+// .skill-2::-webkit-progress-value {
+//   background: #6b8bd1;
+// }
+
+// .skill-3::-webkit-progress-value {
+//   background: rgb(113, 57, 150);
+// }
+
+
+/* 
+// Responsive My Skills Box Widget
+// Made with ❤ by @Pawan_Mall
+// http://www.pawanmall.net 
+*/
+
+
+#SkillBox {
+  width: 95%;
+  height: auto;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius:10px;
 }
 
-// The unordered list
-.skill-list {
-  list-style: none;
-  margin: 0;
-  padding: 1em;
-}
-
-// The list item
-.skill {
-  margin-bottom: 1em;
+.SkillBar {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
   position: relative;
-  h3 {
-    color: #fff;
-    left: 1em;
-    line-height: 1;
-    position: absolute;
-    top: 14px;
-    width: 0px;
-  }
+  background: rgba(17, 17, 17, .3);
+  margin: 20px auto;
 }
 
-// Style the bar colors
-.skill-1::-webkit-progress-value {
-  background: #b852b3;
+#Skill-HTML {
+  animation: Animate-HTML 3s;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background-color: #8040b4;
 }
-
-.skill-2::-webkit-progress-value {
-  background: #6b8bd1;
+@keyframes Animate-HTML {
+  from {
+  width: 10px;
 }
+to {
+  width: 100%}
 
-.skill-3::-webkit-progress-value {
-  background: rgb(113, 57, 150);
+
+}#Skill-CSS {
+  animation: Animate-CSS 3s;
+  border-radius: 10px;
+  width: 90%;
+  height: 40px;
+  position: absolute;
+  background-color: #4178acf1;
+}
+@keyframes Animate-CSS {
+  from {
+  width: 10px;
+}
+to {
+  width: 90%}
+
+
+}#Skill-JS {
+  animation: Animate-JS 3s;
+  border-radius: 10px;
+  width: 75%;
+  height: 40px;
+  position: absolute;
+  background-color: #ad5e9a;
+}
+@keyframes Animate-JS {
+  from {
+  width: 10px;
+}
+to {
+  width: 75%}
+
+
+}#Skill-R {
+  animation: Animate-R 3s;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  position: absolute;
+  background-color: #0c97c1;
+}
+@keyframes Animate-R {
+  from {
+  width: 10px;
+}
+to {
+  width: 80%}
+
+
+}#Skill-PHI {
+  animation: Animate-PHI 3s;
+  border-radius: 10px;
+  width: 65%;
+  height: 40px;
+  position: absolute;
+  background-color: #5A69A6;
+}
+@keyframes Animate-PHI {
+  from {
+  width: 10px;
+}
+to {
+  width: 65%}
+
+
+}#Skill-PPro {
+  animation: Animate-PPro 3s;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background-color: #b92ea2c5;
+}
+@keyframes Animate-PPro {
+  from {
+  width: 10px;
+}
+to {
+  width: 100%}
+
+
+}.Skill-Area {
+  z-index: 1;
+  float: left;
+  margin-top: 8px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+  font-size: 17px;
 }
