@@ -1,5 +1,12 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/index.js'
+import { faFacebookSquare} from '@fortawesome/free-brands-svg-icons'
+import { faTwitterSquare} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { faSnapchatSquare} from '@fortawesome/free-brands-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
+
 const Footer = () => {
 
     return (
@@ -7,7 +14,10 @@ const Footer = () => {
             <div className="row container-fluid no-gutters d-flex justify-content-center my-4">
                 <div className="col-sm-6 col-xs-12 text-center">
                     <h4 className="my-3">- Follow us on Social Media -</h4>
-                    <a href="https://www.facebook.com/Oxalyss" target="_blank"><i className="fab fa-facebook-square mt-2 h2 p-2"></i></a> <a href="https://twitter.com/Oxalyss" target="_blank"><i className="fab fa-twitter-square h2 p-2"></i></a> <a href="https://www.instagram.com/oxxalys/" target="_blank"><i className="fab fa-instagram h2 p-2"></i></a> <a href="https://www.snapchat.com/l/fr-fr/" target="_blank"><i className="fab fa-snapchat-square h2 p-2"></i></a>
+                    <a className="h2 p-2" href="https://www.facebook.com/Oxalyss" target="_blank"><FontAwesomeIcon icon={faFacebookSquare} color="#472D7F" /></a> 
+                    <a className="h2 p-2" href="https://twitter.com/Oxalyss" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} color="#472D7F" /></a> 
+                    <a className="h2 p-2" href="https://www.instagram.com/oxxalys/" target="_blank"><FontAwesomeIcon icon={faInstagram} color="#472D7F" /></a> 
+                    <a className="h2 p-2" href="https://www.snapchat.com/l/fr-fr/" target="_blank"><FontAwesomeIcon icon={faSnapchatSquare} color="#472D7F" /></a>
                 </div>
                 <div className="col-sm-6 col-xs-12 text-center">
                     <h4 className="my-3">- Know us Better -</h4>
@@ -25,7 +35,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div id="footer2"><p className="text-center text-light m-0 py-3">© Copyright 2020 | website made with <i className="fas fa-heart text-danger"></i> by Oxalys Web Dev</p></div>
+            <div id="footer2"><p className="text-center text-light m-0 py-3">© Copyright 2020 | website made with <FontAwesomeIcon icon={faHeart} className="text-danger" /> by Oxalys Web Dev</p></div>
         </div>
     )
 }

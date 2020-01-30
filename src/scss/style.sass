@@ -1,14 +1,9 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss'
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss'
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss'
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss'
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss'
-@import './index'
 @import './variables'
+@import './index'
     
 .display-4
     font-size: 3rem    
-
 
 #header
     background-image: url('../img/header.jpg')
@@ -38,10 +33,10 @@
 
 #services
     font-family: 'Playfair Display', serif
-    .col-md-3>i
-        color: #472D7F
+    .icon
+        color: #472D7F !important
         transition: transform .2s
-    .col-md-3>i:hover
+    .icon:hover
         transform: scale(2)
 
 #about

@@ -32,7 +32,7 @@ const Contact = () => {
                                 <label htmlFor="" className={slide4}>Message</label>
                                 <textarea name="" onFocus={() => setSlide4("text-ligth h4 top")} onBlur={() => setSlide4("text-light h4")} id="" cols="30" rows="10" className="form-control text-light pt-3"></textarea>
                             </div>
-                            <div onClick={() => {alert("merci!")} } className="col-12 text-center form-group mb-5"><button className="px-4 py-2 rounded text-center text-light h4">Submit</button></div>
+                            <div className="col-12 text-center form-group mb-5"><button className="px-4 py-2 rounded text-center text-light h4">Submit</button></div>
                         </div>
                     </div>
                     <div className="col-sm-4 col-xs-12 mx-auto my-5 text-light">
