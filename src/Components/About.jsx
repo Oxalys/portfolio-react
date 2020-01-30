@@ -7,8 +7,8 @@ const About = () => {
         <div id="about" className="container mb-5">
             <h1 className="text-center my-5 display-4">- About me -</h1>
             <div className="row">
-                <div className="col-6"><img src={img} alt="#" className="rounded"/></div>
-                <div className="col-5 text-justify mt-3">
+                <div className="col-md-6 col-sm-12 justify-content-center d-flex"><img src={img} alt="#" className="rounded"/></div>
+                <div className="col-md-6 col-sm-12 mt-3">
                     <h3>FullStack Dev @ MolenGeek</h3>
                     <h5 className="my-5"><p>Email : s.yonte.montero@gmail.com</p>
                         <p>Phone : +32 476 60 68 70</p> 

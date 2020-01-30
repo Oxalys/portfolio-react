@@ -9,13 +9,11 @@ const Portfolio = () => {
 
     return (
         <Fragment>
-            <div id="portfolio"> 
+            <div id="portfolio">
                 <h1 className="text-center pt-4 display-4 text-light">- Portfolio -</h1>
-                <div className="row d-flex justify-content-center no-gutters">
-                    <div className="col-2"><img src={proj1} alt=""/></div>
- 
-                    <div className="col-6">
-                        <div id="carouselExampleCaptions" className="carousel slide container py-5 w-75" data-ride="carousel">
+                <div className="row no-gutters">
+                    <div className="col">
+                        <div id="carouselExampleCaptions" className="carousel slide container py-5 w-50" data-ride="carousel">
                             <ol className="carousel-indicators">
                                 <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -51,8 +49,10 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-
-                    <div className="col-2 mb-5"><img src={proj2} alt=""/></div>
+                </div>
+                <div className="row d-flex justify-content-center no-gutters">
+                    <div className="col-md-4 col-sm-6 my-5 pb-4 text-center"><img src={proj1} alt=""/></div>
+                    <div className="col-md-4 col-sm-6 my-5 pb-4 text-center"><img src={proj2} alt=""/></div>
                 </div>
             </div>
             <div id="banniere"></div>
