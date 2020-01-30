@@ -12,7 +12,6 @@ const About = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            console.log(window.scrollY)
             if (window.scrollY > 460) {
                 setSkill1('Skill-HTML')
                 setSkill2('Skill-CSS')
@@ -36,47 +35,41 @@ const About = () => {
             <h1 className="text-center my-5 display-4">- About us -</h1>
             <div className="row">
                 <div className="col-md-6 col-sm-12 justify-content-center d-flex"><img src={img} alt="#" className="rounded mb-3" /></div>
-                <div className="col-md-6 col-sm-12 pt-3">
-                    <div className="pl-5">
-                        <h3>FullStack Dev @ MolenGeek</h3>
-                        <h5 className="my-4"><p>Email : s.yonte.montero@gmail.com</p>
-                            <p>Phone : +32 476 60 68 70</p>
-                            <p>Adress : Brussels 1050, Belgium</p>
-                            <p>Website : This one, lmfao</p></h5>
-                    </div>
+                <div className="col-md-6 col-sm-12 py-4 text-justify px-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam deserunt a consequatur magnam ipsum nemo enim officia, vitae doloremque minus. Quaerat amet ipsa incidunt nisi repudiandae itaque impedit deleniti suscipit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat delectus expedita dolore est, reiciendis, libero consectetur similique veritatis officia odio totam. Officiis tempora aspernatur deserunt soluta aliquam nam accusantium molestias.</p>
                     <div>
                         <center>
                             <div id="SkillBox">
                                 <h3>My Dev Skills</h3>
-                                <div class="SkillBar">
+                                <div className="SkillBar">
                                     <div id={skill1}>
-                                        <span class="Skill-Area">HTML</span> 
+                                        <span className="Skill-Area">HTML</span> 
                                     </div>
                                 </div>
 
-                                <div class="SkillBar">
+                                <div className="SkillBar">
                                     <div id={skill2}>
-                                        <span class="Skill-Area">CSS</span>
+                                        <span className="Skill-Area">CSS</span>
                                     </div>
                                 </div>
-                                <div class="SkillBar">
+                                <div className="SkillBar">
                                     <div id={skill3}>
-                                        <span class="Skill-Area">JavaScript</span>
+                                        <span className="Skill-Area">JavaScript</span>
                                     </div>
                                 </div>
-                                <div class="SkillBar">
+                                <div className="SkillBar">
                                     <div id={skill4}>
-                                        <span class="Skill-Area">REACT</span>
+                                        <span className="Skill-Area">REACT</span>
                                     </div>
                                 </div>
-                                <div class="SkillBar">
+                                <div className="SkillBar">
                                     <div id={skill5}>
-                                        <span class="Skill-Area">PremierePro</span>
+                                        <span className="Skill-Area">PremierePro</span>
                                     </div>
                                 </div>
-                                <div class="SkillBar">
+                                <div className="SkillBar">
                                     <div id={skill6}>
-                                        <span class="Skill-Area">Photoshop/Illustrator</span>
+                                        <span className="Skill-Area">Photoshop/Illustrator</span>
                                     </div>
                                 </div>
 
@@ -84,7 +77,7 @@ const About = () => {
                         </center>
                     </div>
                     <div className="d-flex justify-content-center mt-4">
-                        <a href="https://github.com/Oxalys"><input type="button" value="Learn More" className="text-white btn  font-weight-bolder p-3 px-4" /></a></div>
+                        <a href="https://github.com/Oxalys" target="_blank"><input type="button" value="Learn More" className="text-white btn  font-weight-bolder p-3 px-4" /></a></div>
                 </div>
             </div>
         </div>

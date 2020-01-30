@@ -1,5 +1,13 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+@import './index'
+@import './variables'
+    
+.display-4
+    font-size: 3rem    
+
+
 #header
-    background-image:url('./img/header.jpg')
+    background-image: url('../img/header.jpg')
     height: 100vh
     width: 100vw
     background-repeat: no-repeat
@@ -26,10 +34,10 @@
 
 #services
     font-family: 'Playfair Display', serif
-    i
+    .col-md-3>i
         color: #472D7F
         transition: transform .2s
-    i:hover
+    .col-md-3>i:hover
         transform: scale(2)
 
 #about
@@ -70,8 +78,8 @@
 
 
 #banniere
-    background-image:url('./img/header.jpg')
-    height: 15vh
+    background-image: url('../img/header.jpg')
+    height: 25vh
     width: 100vw
     background-repeat: no-repeat
     background-size: cover
@@ -92,6 +100,8 @@
     .form-group>input, .form-group>textarea, .form-group>button
         border: none
         background-color: #a59abd9a
+    .infos
+        line-height: 35px
 
 
 #footer

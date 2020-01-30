@@ -12,8 +12,8 @@ const Portfolio = () => {
             <div id="portfolio">
                 <h1 className="text-center pt-4 display-4 text-light">- Portfolio -</h1>
                 <div className="row no-gutters">
-                    <div className="col">
-                        <div id="carouselExampleCaptions" className="carousel slide container py-5 w-50" data-ride="carousel">
+                    <div className="col-xs-12 col-lg-8 offset-lg-2">
+                        <div id="carouselExampleCaptions" className="carousel slide container py-5 w-100" data-ride="carousel">
                             <ol className="carousel-indicators">
                                 <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                 <div className="row d-flex justify-content-center no-gutters">
                     <div className="col-md-4 col-sm-6 my-5 pb-4 text-center zoom">
                         <img src={proj1} alt=""/>
-                        <div class="container hide w-50 text-light">
+                        <div className="container hide w-50 text-light">
                             <p>Les Chefs <br/>
                                 HTML/CSS
                             </p>
@@ -61,7 +61,7 @@ const Portfolio = () => {
                     </div>
                     <div className="col-md-4 col-sm-6 my-5 pb-4 text-center zoom">
                         <img src={proj2} alt=""/>
-                        <div class="container hide w-50 text-light">
+                        <div className="container hide w-50 text-light">
                             <p>
                                 Emporium <br/>
                                 JS/DOM
