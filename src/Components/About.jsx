@@ -1,52 +1,82 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img from '../img/about2.jpg';
 
 const About = () => {
+
+    const [skill1, setSkill1] = useState('');
+    const [skill2, setSkill2] = useState('');
+    const [skill3, setSkill3] = useState('');
+    const [skill4, setSkill4] = useState('');
+    const [skill5, setSkill5] = useState('');
+    const [skill6, setSkill6] = useState('');
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            console.log(window.scrollY)
+            if (window.scrollY > 460) {
+                setSkill1('Skill-HTML')
+                setSkill2('Skill-CSS')
+                setSkill3('Skill-JS')
+                setSkill4('Skill-R')
+                setSkill5('Skill-PPro')
+                setSkill6('Skill-PHI')
+            } else {
+                setSkill1('')
+                setSkill2('')
+                setSkill3('')
+                setSkill4('')
+                setSkill5('')
+                setSkill6('')
+            }
+        })
+    })
 
     return (
         <div id="about" className="container mb-5">
             <h1 className="text-center my-5 display-4">- About us -</h1>
             <div className="row">
-                <div className="col-md-6 col-sm-12 justify-content-center d-flex"><img src={img} alt="#" className="rounded" /></div>
-                <div className="col-md-6 col-sm-12 mt-2">
-                    <h3>FullStack Dev @ MolenGeek</h3>
-                    <h5 className="my-4"><p>Email : s.yonte.montero@gmail.com</p>
-                        <p>Phone : +32 476 60 68 70</p>
-                        <p>Adress : Brussels 1050, Belgium</p>
-                        <p>Website : This one, lmfao</p></h5>
+                <div className="col-md-6 col-sm-12 justify-content-center d-flex"><img src={img} alt="#" className="rounded mb-3" /></div>
+                <div className="col-md-6 col-sm-12 pt-3">
+                    <div className="pl-5">
+                        <h3>FullStack Dev @ MolenGeek</h3>
+                        <h5 className="my-4"><p>Email : s.yonte.montero@gmail.com</p>
+                            <p>Phone : +32 476 60 68 70</p>
+                            <p>Adress : Brussels 1050, Belgium</p>
+                            <p>Website : This one, lmfao</p></h5>
+                    </div>
                     <div>
                         <center>
                             <div id="SkillBox">
                                 <h3>My Dev Skills</h3>
                                 <div class="SkillBar">
-                                    <div id="Skill-HTML">
-                                        <span class="Skill-Area ">HTML</span>
+                                    <div id={skill1}>
+                                        <span class="Skill-Area">HTML</span> 
                                     </div>
                                 </div>
 
                                 <div class="SkillBar">
-                                    <div id="Skill-CSS">
-                                        <span class="Skill-Area ">CSS</span>
+                                    <div id={skill2}>
+                                        <span class="Skill-Area">CSS</span>
                                     </div>
                                 </div>
                                 <div class="SkillBar">
-                                    <div id="Skill-JS">
-                                        <span class="Skill-Area ">JavaScript</span>
+                                    <div id={skill3}>
+                                        <span class="Skill-Area">JavaScript</span>
                                     </div>
                                 </div>
                                 <div class="SkillBar">
-                                    <div id="Skill-R">
+                                    <div id={skill4}>
                                         <span class="Skill-Area">REACT</span>
                                     </div>
                                 </div>
                                 <div class="SkillBar">
-                                    <div id="Skill-PPro">
-                                        <span class="Skill-Area ">PremierePro</span>
+                                    <div id={skill5}>
+                                        <span class="Skill-Area">PremierePro</span>
                                     </div>
                                 </div>
                                 <div class="SkillBar">
-                                    <div id="Skill-PHI">
-                                        <span class="Skill-Area ">Photoshop/Illustrator</span>
+                                    <div id={skill6}>
+                                        <span class="Skill-Area">Photoshop/Illustrator</span>
                                     </div>
                                 </div>
 

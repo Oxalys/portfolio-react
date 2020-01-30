@@ -45,16 +45,28 @@
 #portfolio
     font-family: 'Playfair Display', serif
     background-color: #472D7F
-    img
-        width: 100%
-        border: solid white 2px
-    .col-md-4
-        transition: transform .2s
+    .zoom
         img
-            width: 100%
-            max-width: 250px
-    .col-md-4:hover
-        transform: scale(1.2)
+            width: 60%
+            transition: ease 1s
+            border: solid white 2px
+        &:hover
+            img
+                transform: scale(1.2)
+            .hide
+                opacity: 1
+
+    .hide
+        background-color: #845fadf6
+        position: absolute
+        top: 0
+        z-index: 3
+        opacity: 0
+        transition: bottom ease 1s
+        p
+            opacity: .9
+            transition: ease .5s
+            padding: 19px 10px 0
 
 
 #banniere

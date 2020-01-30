@@ -13,7 +13,7 @@ const Nav = () => {
                     <a href="#header" className="nav-item nav-link mx-2">HOME</a>
                     <a href="#about" className="nav-item nav-link mx-2">ABOUT</a>
                     <a href="#portfolio" className="nav-item nav-link mx-2">PORTFOLIO</a>
-                    <a href="#services" className="nav-item nav-link mx-2">SERVICES</a>
+                    <a href="#banniere" className="nav-item nav-link mx-2">SERVICES</a>
                     <a href="#contact" className="nav-item nav-link mx-2 mr-4">CONTACT</a>
                 </div>
             </div>

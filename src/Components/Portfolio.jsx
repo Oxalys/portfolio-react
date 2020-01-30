@@ -3,12 +3,12 @@ import img1 from '../img/portfolio1.jpg';
 import img2 from '../img/portfolio2.jpg';
 import img3 from '../img/portfolio3.jpg';
 import proj1 from '../img/proj1.jpg';
-import proj2 from '../img/proj2.jpg'; 
+import proj2 from '../img/proj2.jpg';
 
 const Portfolio = () => {
 
     return (
-        <Fragment> 
+        <Fragment>
             <div id="portfolio">
                 <h1 className="text-center pt-4 display-4 text-light">- Portfolio -</h1>
                 <div className="row no-gutters">
@@ -51,13 +51,28 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="row d-flex justify-content-center no-gutters">
-                    <div className="col-md-4 col-sm-6 my-5 pb-4 text-center"><img src={proj1} alt=""/></div>
-                    <div className="col-md-4 col-sm-6 my-5 pb-4 text-center"><img src={proj2} alt=""/></div>
+                    <div className="col-md-4 col-sm-6 my-5 pb-4 text-center zoom">
+                        <img src={proj1} alt=""/>
+                        <div class="container hide w-50 text-light">
+                            <p>Les Chefs <br/>
+                                HTML/CSS
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 my-5 pb-4 text-center zoom">
+                        <img src={proj2} alt=""/>
+                        <div class="container hide w-50 text-light">
+                            <p>
+                                Emporium <br/>
+                                JS/DOM
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <div id="banniere"></div>
             </div>
-            <div id="banniere"></div>
         </Fragment>
-    )
-}
-
+                )
+            }
+            
 export default Portfolio;
