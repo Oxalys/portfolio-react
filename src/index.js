@@ -5,6 +5,5 @@ import './css/style.css';
 import 'jquery/dist/jquery.js';
 import 'popper.js/dist/popper.js';
 import 'bootstrap/dist/js/bootstrap.js';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
