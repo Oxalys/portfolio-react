@@ -10157,6 +10157,11 @@ code {
   font-size: 17px;
 }
 
+.test {
+  color: red !important;
+  font-size: 550px;
+}
+
 .display-4 {
   font-size: 3rem;
 }
@@ -10195,11 +10200,11 @@ code {
 #services {
   font-family: "Playfair Display", serif;
 }
-#services .icon {
+#services .row .col-md-3 .svg {
   color: #472D7F !important;
   transition: transform 0.2s;
 }
-#services .icon:hover {
+#services .row .col-md-3 .svgHover {
   transform: scale(2);
 }
 
